@@ -108,12 +108,10 @@ main {
 
 #intro-section #graph-section {
   width: 60vw;
-  padding: 17px;
 }
 
 #intro-section #graph-section #graph-images {
   height: 70%;
-  margin: auto;
   margin-left: auto;
   margin-right: auto;
 }

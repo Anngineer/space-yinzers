@@ -104,11 +104,12 @@ main {
   }
   #graph-section {
     width: 60vw;
-    padding: 17px;
+    // padding: 17px;
+
     #graph-images {
       // background-image: url("../images/NASAAirData.PNG");
       height: 70%;
-      margin: auto;
+      // margin: auto;
       margin-left: auto;
       margin-right: auto;
       // width: 100%;
@@ -164,6 +165,7 @@ footer {
   color: rgba(245, 245, 245, 0.488);
   text-align: right;
   background-color: $dark-blue;
+
   a {
     color: whitesmoke;
   }
