@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>space yinzer</title>
+    <link rel="shortcut icon" type="image/jpg" href="./images/favicon1.ico" />
+
+    <!-- Leaflet code -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+      integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+      integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
+      crossorigin=""
+    ></script>
+
+    <!--Personal Scripts  -->
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <!-------------------------------------- fonts to play with ------------------------------------------------------------------>
+
+    <!-- NASA FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font for paragraphs -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!---------------------------------------------------------------- end of fonts ---------------------------------------------------------->
+
+    <!-- Script for fontawesome icons -->
+    <script
+      src="https://kit.fontawesome.com/eab80f8837.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- This is the navbar -->
+    <nav>
+      <div id="nav-image">
+        <a href="#main-map-section">
+          <div>space-yinzers</div>
+        </a>
+      </div>
+      <div id="right-nav">
+        <a href="#about-section">
+          <div>about</div>
+        </a>
+
+        <a href="#graph-section">
+          <div>graphs</div>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Nav end -->
+
+    <main>
+      <section id="intro-section">
+        <div id="leaflet-section">
+          <h1>Main Map Section</h1>
+          <div id="map"></div>
+        </div>
+        <div id="graph-section">
+          <h3>3 Graph Section</h3>
+        </div>
+      </section>
+      <section id="about-section">
+        <h3>About Section</h3>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p id="citation">
+        Photo by Felix Mittermeier:
+        https://www.pexels.com/photo/blue-universe-956981/
+      </p>
+    </footer>
+
+    <script src="./scripts/myscripts.js"></script>
+  </body>
+</html>
