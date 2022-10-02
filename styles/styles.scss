@@ -46,7 +46,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  //   background-color: $dark-blue;
+  color: $dark-blue;
   background-image: url("../images/pexels-felix-mittermeier-956981.jpg");
 
   //   opacity: 0.3;
@@ -68,7 +68,6 @@ nav {
   a {
     text-decoration: none;
     color: #181b1d;
-    color: whitesmoke;
     font-size: 1.2rem;
     // &:hover {
     //   // font-weight: 550;
@@ -106,6 +105,14 @@ main {
   #graph-section {
     width: 60vw;
     padding: 17px;
+    #graph-images {
+      // background-image: url("../images/NASAAirData.PNG");
+      height: 70%;
+      margin: auto;
+      margin-left: auto;
+      margin-right: auto;
+      // width: 100%;
+    }
   }
 }
 
@@ -128,6 +135,9 @@ main {
   color: whitesmoke;
   //   width: 50vw;
   padding: 17px;
+  a {
+    color: whitesmoke;
+  }
 }
 // #graph-section {
 //   border-left: rgba(245, 245, 245, 0.157) 4px solid;
@@ -154,4 +164,7 @@ footer {
   color: rgba(245, 245, 245, 0.488);
   text-align: right;
   background-color: $dark-blue;
+  a {
+    color: whitesmoke;
+  }
 }
